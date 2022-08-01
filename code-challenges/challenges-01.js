@@ -37,11 +37,11 @@ const sumNums = (arr) => {
   // write your code here
   sum = 0 ;
   for( var i=arr[i];i>=arr.length;i++){
-    if(typeof(i)==typeof(sum)){
+    if(typeof(i)===typeof(sum)){
        sum += i;
     } 
     else {
-      break
+      continue
     }
   }
   return sum;
