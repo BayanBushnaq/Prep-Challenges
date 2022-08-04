@@ -10,12 +10,13 @@
 
 const reverseArray = (arr) => {
   // write your code here
-  const newArr = [];
-  for(var i=reverseArray.length-1;i>=0;i--){
-   reverseArray.push(newArr[i])
+  const newArr=[];
+  for(var i=arr.length-1;i>=0;i--){
+    newArr.push(arr[i])
   }
-  return newArr;
-};
+  return newArr ;
+} ;
+
 
 // -------------------------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------------------------
@@ -28,14 +29,14 @@ const reverseArray = (arr) => {
 //  Input: [20, 54, 89, 41]
 //  Output: [30, 64, 99, 51]
 
-const arrInc = (arr) => {
+function arrInc(arr) {
   const result = [];
   // write your code here
-  for(var i=0;i<arrInc.length;i++){
-    result.push(arrInc[i]+10)
+  for (var i = 0; i < arr.length; i++) {
+    result.push(arr[i] + 10);
   }
   return result;
-};
+}
 
 
 // -------------------------------------------------------------------------------------------------------
